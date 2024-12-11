@@ -38,27 +38,33 @@ const Hero = () => {
 			<div className="flex justify-center relative my-20 z-10">
 				<div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
 					<p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-						Professional Development with Next.js
+						Лучшая AI тех. поддержка для вашего сервиса
 					</p>
 
 					{/* Dynamic text generation effect */}
 					<TextGenerateEffect
-						words="Creating modern and high-performance web applications"
+						words="Мы разработали Lightning, быструю тех. поддержку"
 						className="text-center text-[40px] md:text-5xl lg:text-6xl"
 					/>
 
 					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-						Hi! I&apos;m Artyom Narshinov, an experienced frontend
-						developer from Russia.
+						которая позволяет обработать более 80% заявок - автоматически и сохранить клиентов
 					</p>
 
-					<Link href="https://t.me/beastovsk" target="_blank">
+					<div className='flex gap-2 items-center'><Link href="https://cloud.mail.ru/public/pXL5/bae6epFuz" target="_blank">
 						<MagicButton
 							icon={<FaLocationArrow className="mr-2" />}
-							title="Contact me in Telegram"
+							title="Посмотреть презентацию"
 							position=""
 						/>
 					</Link>
+						<Link href="https://forms.yandex.ru/u/6759e28e068ff08dfb5b7b85/" target="_blank">
+							<MagicButton
+								icon={<FaLocationArrow className="mr-2" />}
+								title="Записаться на демо"
+								position=""
+							/>
+						</Link></div>
 				</div>
 			</div>
 		</div>
